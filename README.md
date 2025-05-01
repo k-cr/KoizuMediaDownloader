@@ -1,6 +1,6 @@
 ﻿# 🎵 Koizu Media Downloader
 
-![Versión](https://img.shields.io/badge/versi%C3%B3n-1.0.0-blue)
+![Versión](https://img.shields.io/badge/versi%C3%B3n-1.0.1-blue)
 ![Plataforma](https://img.shields.io/badge/sistema-Windows-green)
 ![Licencia](https://img.shields.io/badge/licencia-Uso%20personal-red)
 ![Desarrollador](https://img.shields.io/badge/autor-Cristian%20Ramos%20(Koizu)-purple)
@@ -47,7 +47,7 @@ Desarrollada por **Cristian Ramos (Koizu)**, con interfaz moderna, soporte para 
 
 ## 📦 Descarga
 
-👉 [**Descargar última versión (.exe)**](https://github.com/k-cr/KoizuMediaDownloader/releases/download/pre-release/KoizuMediaDownloader.exe)
+👉 [**Descargar última versión (.exe)**](https://github.com/k-cr/KoizuMediaDownloader/releases/download/pre-release-1.0.1/KoizuMediaDownloader.exe)
 
 > Solo extraer y ejecutar. No requiere instalación.
 
