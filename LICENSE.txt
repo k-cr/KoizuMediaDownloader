@@ -1,0 +1,27 @@
+Koizu Media Downloader - Licencia de Uso Personal
+--------------------------------------------------
+
+Copyright (c) 2025 Cristian Ramos (Koizu)
+
+Esta aplicación ha sido desarrollada por Cristian Ramos (Koizu) y se distribuye bajo los siguientes términos:
+
+1. USO AUTORIZADO
+   - Se permite el uso personal, educativo o experimental de esta aplicación.
+   - El uso está limitado al entorno del usuario que descarga y ejecuta el programa.
+
+2. PROHIBICIONES
+   - Queda prohibida la reventa, redistribución o comercialización del software.
+   - No se permite modificar, descompilar ni crear obras derivadas sin autorización escrita del autor.
+   - No se permite utilizar esta herramienta para infringir derechos de autor u otras normativas legales.
+
+3. RESPONSABILIDAD
+   - El autor no se hace responsable por el uso indebido de esta aplicación, ni por daños directos o indirectos causados por su ejecución.
+   - El usuario es responsable de respetar los términos de uso de las plataformas desde las que descargue contenido.
+
+4. DERECHOS DE AUTOR
+   - El icono, nombre, diseño y código fuente son propiedad intelectual del autor.
+   - Todos los derechos están reservados.
+
+Para consultas o solicitudes especiales, contactar directamente a Cristian Ramos (Koizu).
+
+Fecha: Abril 2025
