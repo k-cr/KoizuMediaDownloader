@@ -47,7 +47,7 @@ Desarrollada por **Cristian Ramos (Koizu)**, con interfaz moderna, soporte para 
 
 ## 📦 Descarga
 
-👉 [**Descargar última versión (.exe)**](https://github.com/k-cr/KoizuMediaDownloader/releases/download/pre-release-1.0.1/KoizuMediaDownloader.exe)
+👉 [**Descargar última versión (.exe)**](https://github.com/k-cr/KoizuMediaDownloader/releases/tag/release)
 
 > Solo extraer y ejecutar. No requiere instalación.
 
