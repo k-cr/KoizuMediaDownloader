@@ -1,6 +1,6 @@
 ﻿# 🎵 Koizu Media Downloader
 
-![Versión](https://img.shields.io/badge/versi%C3%B3n-1.0.1-blue)
+![Versión](https://img.shields.io/badge/versi%C3%B3n-1.0.2-blue)
 ![Plataforma](https://img.shields.io/badge/sistema-Windows-green)
 ![Licencia](https://img.shields.io/badge/licencia-Uso%20personal-red)
 ![Desarrollador](https://img.shields.io/badge/autor-Cristian%20Ramos%20(Koizu)-purple)
