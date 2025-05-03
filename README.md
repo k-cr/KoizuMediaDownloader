@@ -5,7 +5,7 @@
 ![Licencia](https://img.shields.io/badge/licencia-Uso%20personal-red)
 ![Desarrollador](https://img.shields.io/badge/autor-Cristian%20Ramos%20(Koizu)-purple)
 
-**Versión 1.0.0 Pre-Release — Aplicación de escritorio para descargas multimedia personales**
+**Versión 1.0.2 Pre-Release — Aplicación de escritorio para descargas multimedia personales**
 
 ---
 
