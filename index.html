@@ -1,69 +1,155 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Koizu Media Downloader</title>
-  <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background: #f8f9fa;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 40px;
-      color: #333;
-    }
-
-    .container {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(0,0,0,0.08);
-      text-align: center;
-      max-width: 600px;
-    }
-
-    h1 {
-      color: #2196f3;
-      margin-bottom: 10px;
-    }
-
-    .boton {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
-      background: #4caf50;
-      color: white;
-      font-weight: bold;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-
-    .boton:hover {
-      background: #388e3c;
-    }
-
-    .creditos {
-      font-size: 0.85em;
-      margin-top: 30px;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Koizu Media Downloader</h1>
-    <p>Herramienta de escritorio para descargas personales desde YouTube, Vimeo y Spotify.</p>
-
-    <a class="boton" href="https://github.com/k-cr/KoizuMediaDownloader/releases/tag/release">
-      Descargar para Windows
-    </a>
-
-    <div class="creditos">
-      Desarrollado por Cristian Ramos (Koizu) • Versión Pre-Release 1.0.2 • 2025
-    </div>
-  </div>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Koizu Media Downloader - Main Page</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">Koizu Media Downloader</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menú
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Características</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Descargas</a></li>
+                    </ul>
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span><a class="small text-white"  href="https://docs.google.com/forms/d/e/1FAIpQLSfJfZrkULfgmUdRjS3wDxFvtmA1P_LHmSfuBQ53fQ9c2npQrg/viewform?embedded=true" target="_blank">Mandar una opinión</a></span>
+                          </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Mashead header-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1 class="display-2 lh-1 mb-3">Descarga contenido de tus plataformas favoritas, sin complicaciones</h1>
+                            <p class="lead fw-normal text-muted mb-5">Una aplicación para descargar contenido de múltiples plataformas de manera sencilla y rápida.</p>
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                              <a class="btn btn-outline-primary py-3 px-4 rounded-pill" href="https://github.com/k-cr/KoizuMediaDownloader/releases/tag/release" target="_blank">Descargar ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                      <img src="assets/img/heroImg.png" alt="main hero" style="width: 100%;"/>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Quote/testimonial aside-->
+        <aside class="text-center bg-primary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">"Herramienta de escritorio simple para obtener medios desde múltiples servicios como YouTube, Vimeo o Spotify usando tecnologías Open Source."</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- App features section-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-person-check icon-feature text-primary d-block mb-3"></i>
+                                        <h3 class="font-alt">Fácil de utilizar</h3>
+                                        <p class="text-muted mb-0">Ponés un link, descargar, ¡y listo!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-gear icon-feature text-primary d-block mb-3"></i>
+                                        <h3 class="font-alt">Fácil de configurar</h3>
+                                        <p class="text-muted mb-0">Interfaz de configuración intuitiva y fácil de utilizar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-gift icon-feature text-primary d-block mb-3"></i>
+                                        <h3 class="font-alt">Gratis</h3>
+                                        <p class="text-muted mb-0">Uso libre y personal, ¡totalmente gratis!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-shield-check icon-feature text-primary d-block mb-3"></i>
+                                        <h3 class="font-alt">Sin instalación</h3>
+                                        <p class="text-muted mb-0">¡Para abrir y utilizar! Sin instalaciones en tu computadora.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-0">
+                      <img src="assets/img/featureImg.png" alt="main hero" style="width: 100%;"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action section-->
+        <section class="cta" id="download">
+            <div class="cta-content">
+                <div class="container px-5">
+                    <h2 class="text-white display-1 lh-1 mb-4">
+                        No esperés más.
+                        <br />
+                        Arrancá a descargar.
+                    </h2>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://github.com/k-cr/KoizuMediaDownloader/releases/tag/release" target="_blank">Descargar ahora</a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2"><span><a href="https://github.com/k-cr/" target="_blank">&copy; Cristian Ramos</a></span>, 2025. Todos los derechos reservados.</div>
+                    <a href="privacy.html">Privacidad</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="terms.html">Términos y Condiciones</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="faq.html">Preguntas frecuentes</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
