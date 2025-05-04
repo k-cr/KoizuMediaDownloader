@@ -40,8 +40,9 @@ Desarrollada por **Cristian Ramos (Koizu)**, con interfaz moderna, soporte para 
 ## 🖥️ Requisitos
 
 - Sistema operativo: Windows 10/11  
-- Python no necesario (el `.exe` es independiente)  
-- Spotify requiere tener [`spotdl`](https://spotdl.dev/) instalado
+- Python 3.9+
+- Spotify requiere tener `spotdl` instalado (vía `pip install spotdl`)
+- FFmepeg instalado, descargado desde su [página oficial](https://ffmpeg.org/download.html)
 
 ---
 
